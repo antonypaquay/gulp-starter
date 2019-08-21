@@ -1,0 +1,17 @@
+C ---| Libs folder (order is important)
+|
+|   Position (1) ---| Library-3
+|   Position (2) ---| Library-2 ex: Tweenmax needs --> jQuery
+|   Position (3) ---| Library-1 ex: jQuery
+|
+C+B = B ---| Modules folder (order is not important)
+|
+|   Position (∞) ---| Module-2
+|   Position (∞) ---| Module-3
+|   Position (∞) ---| Module-1
+|
+C+B = A ---| App folder
+|
+|  Position (0) ---| Only main App
+|
+◊

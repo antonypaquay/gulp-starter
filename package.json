@@ -1,0 +1,35 @@
+{
+  "name": "hellodevup",
+  "version": "2.1.0",
+  "description": "For developer <3 made with coffee",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonyPaquay/helloDevUp.git"
+  },
+  "keywords": [
+    "process, node, gulp"
+  ],
+  "author": "Antony Paquay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonyPaquay/helloDevUp/issues"
+  },
+  "homepage": "https://github.com/AntonyPaquay/helloDevUp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browserslist": "^4.6.6",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  }
+}
