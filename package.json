@@ -15,7 +15,7 @@
     "process, node, gulp"
   ],
   "author": "Antony Paquay",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AntonyPaquay/helloDevUp/issues"
   },
