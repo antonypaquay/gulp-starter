@@ -22,7 +22,7 @@
   "homepage": "https://github.com/AntonyPaquay/helloDevUp#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "browserslist": "^4.6.6",
+    "browserslist": "^4.16.5",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.0",
     "gulp-clean-css": "^4.2.0",
