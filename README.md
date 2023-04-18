@@ -1,20 +1,76 @@
-# Hello DevUp
+# Gulp Starter
 
-## Installation
+- Compiling your scss files to ``styles.css``
+- Compiling your js files using gulp-concat and gulp-uglify to ``main.min.js``
+- Automatically reload your browser when a change is detected
 
-First -> Node.js must be installed https://nodejs.org/en/
+**Requirement:**
+You need to install Node.js globally in your operating system, for more information please visit this link
+https://nodejs.org/en.
 
-Don't forget to run the command line `npm install` after cloning this repo!
+### Installation
+Install NPM packages
+``npm install``
 
-After that run the command line `npm start`
+Then run the development server using ``npm start``<br>
+**Happy coding! 🎉**
 
-## Description
-
-Uses BEM Methodology -> Learn more http://getbem.com/ & https://en.bem.info/methodology/ 
-
-### About BEM
-Methodology BEM was invented at Yandex to develop sites which should be launched fast and supported for a long time. It helps to create extendable and reusable interface components.
-
-Mobile First Methodology
-Uses Normalize.css from https://necolas.github.io/normalize.css/
-Uses Node.js, Npm and Gulp V4
+#### SASS folder structure
+The organization of the scss file structure can be adapted according to your preferences, knowing that the output point is the ``styles.scss`` file.
+```
+sass/
+|
+|- abstracts/
+|    |- _variables.scss
+|    |- _media-query.scss
+|    |- _colors.scss
+|    ...
+|    |- _index.scss
+|
+|- base/
+|    |- _base.scss
+|    |- _reset.scss
+|    ...
+|    |- _index.scss
+|
+|- utils/
+|    |- _main.scss
+|    |- _container.scss
+|    |- _exceptions.scss
+|    ...
+|    |- _index.scss
+|
+|- components/
+|    |- _buttons.scss
+|    |- _carousel.scss
+|    |- _dropdown.scss
+|    ...
+|    |- _index.scss
+|
+|- layout/
+|    |- _header.scss
+|    |- _sidebar.scss
+|    |- _footer.scss
+|    ...
+|    |- _index.scss
+|
+|- pages/
+|    |- _about.scss
+|    |- _contact.scss
+|    ...
+|    |- _index.scss
+|
+|- themes/
+|    |- _theme.scss
+|    |- _admin.scss
+|    ...
+|    |- _index.scss
+|
+|- vendors/
+|    |- _bootstrap.scss
+|    |- _modern-reset.scss
+|    ...
+|    |- _index.scss
+|
+|- style.scss
+```

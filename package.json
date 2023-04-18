@@ -1,35 +1,31 @@
 {
-  "name": "hellodevup",
-  "version": "2.1.0",
-  "description": "For developer <3 made with coffee",
-  "main": "gulpfile.js",
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "description": "Initialized your web project using Gulp",
+  "main": "app.js",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AntonyPaquay/helloDevUp.git"
-  },
   "keywords": [
-    "process, node, gulp"
+    "gulp",
+    "html",
+    "sass",
+    "javascript"
   ],
   "author": "Antony Paquay",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AntonyPaquay/helloDevUp/issues"
-  },
-  "homepage": "https://github.com/AntonyPaquay/helloDevUp#readme",
+  "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "browserslist": "^4.6.6",
+    "autoprefixer": "^10.4.14",
+    "browser-sync": "^2.29.1",
+    "cssnano": "^6.0.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.0",
-    "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
-    "gulp-notify": "^3.2.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.62.0"
   }
 }
